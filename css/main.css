@@ -1,0 +1,43 @@
+body {
+    background-image: url("../images/background.jpg");
+/*  source: http://www.bl.uk/onlinegallery/sacredtexts/images/syriacbib_lg.jpg */
+}
+
+#content {
+    background-color: rgb(255,255,255);
+    margin: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.page-header {
+    text-align: center;
+    padding-top: 8px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h4 {
+    color: #bb060c
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+.dropDown {
+    cursor: pointer;
+}
+
+.letterTable {
+    overflow: scroll;
+}
+
+@media print {
+    body {
+/*        background-image: none;*/
+    }
+}
